@@ -13,8 +13,8 @@
 ## contenidos de este repositorio
 
 * carpeta [codigo_arduino/](codigo_arduino/): carpeta que contiene el codigo de Arduino
-  * archivo [odigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino) : debe incluir encabezado y comentarios describiendo tu proyecto
-* carpeta [imagenes/](imagenes/): sube aquí las imágenes para tu proyecto.
+  * archivo [odigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino) : Codigo contiene comentarios en su interior
+* carpeta [imagenes/](imagenes/): imágenes del proyecto.
   * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg) como ejemplo.
 * archivo [README.md](README.md)]: este mismo archivo, aquí escribe tus apuntes durante el proyecto.
 * archivo [README.pdf](README.pdf): este archivo pero convertido a PDF, puedes borrarlo.
