@@ -79,7 +79,7 @@ primero hacemos X y se ve así.
 
 después hacemos Y y se ve así.
 
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
+![texto descripción de la foto](imagenes/IMG-20220510-WA0047[1].jpg)
 
 ## código para microcontrolador Arduino
 
