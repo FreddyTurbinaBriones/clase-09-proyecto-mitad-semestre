@@ -61,10 +61,13 @@ los integrantes son: Tania Fuentes
 los materiales son:
 
 * Arduino Uno
-* protoboard
-* cables
-* potenciómetro
-* etc
+* 2 Protoboard o 1 Protoboard larga
+* Muchos cables
+* Potenciómetro
+* 8 Luces led
+* 8 Botones
+* Muchas Resistencias
+* Parlante pequeño
 
 ## armado de circuito
 
