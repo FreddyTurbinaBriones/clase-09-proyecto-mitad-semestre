@@ -12,7 +12,7 @@
 
 ## contenidos de este repositorio
 
-* carpeta [codigo_arduino/](codigo_arduino/): carpeta para tener el codigo de tu proyecto
+* carpeta [codigo_arduino/](codigo_arduino/): carpeta que contiene el codigo de Arduino
   * archivo [odigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino) : debe incluir encabezado y comentarios describiendo tu proyecto
 * carpeta [imagenes/](imagenes/): sube aquí las imágenes para tu proyecto.
   * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg) como ejemplo.
