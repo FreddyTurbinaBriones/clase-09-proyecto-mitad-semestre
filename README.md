@@ -90,64 +90,69 @@ Instrucciones de armado
 
 Colocar los botones de manera equidistantes en ambas protoboard.
 
-![002](imagenes/002.jpg)
+![002](imagenes/002.jpeg)
 
 * 2do paso
 
 Unir las protoboard, recordar conectar el canal negativo y positivo entre las protoboard mediante un cable para cada canal.
 
-![003](imagenes/003.jpg)
+![003](imagenes/003.jpeg)
 
 * 3er paso
 
 Colocar una resistencia entre el canal negativo del botón y el canal negativo del circuito.
 
-![004](imagenes/004.jpg)
+![004](imagenes/004.jpeg)
 
 * 4to paso 
 
 Conectar el canal positivo del circuito con el canal positivo del botón.
 
-![005](imagenes/005.jpg)
-![006](imagenes/006.jpg)
+![005](imagenes/005.jpeg)
+![006](imagenes/006.jpeg)
 
 * 5to paso
 
 Conectar el circuito de la protoboard con la fuente de alimentación que es el Arduino.
 esto quiere decir que al canal positivo de la protoboard conectarlos con la salida de 5V del Arduino y que el canal negativo de la protoboard a una entrada de tierra en la placa de Arduino.
 
-![texto descripción de la foto](imagenes/007.jpg)
+![007](imagenes/007.jpeg)
 
 * 6to paso
 
 Conectar el parlante a la protoboard, uno de los cables del parlante va a la salida de Arduino, la cual fue designada en el pin número 10.
 mientras que el otro cable se introduce al canal negativo de la protoboard.
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen008
+
+![008](imagenes/008.jpeg)
 
 
 * 7mo paso
 
 Colocar un cable entre la resistencia del canal negativo del botón y el botón. Este cable nos va a servir para enviar una señal al Arduino.
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen009
+
+![009](imagenes/009.jpeg)
 
 * 8vo paso
 
 Colocar estos cables en sus pines correspondientes, esos pines son del 2 al 9, procura colocar los cables de señal en el orden correcto, los cuales van desde el botón de la izquierda conectado al pin2 hacia el botón de la derecha que va conectado en el pin9.
 (imagen de referencia se logra ver un error al ocupar los pine 0 y 1que están explicados en la sección de código para el microcontrolador)
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen010
+
+![texto descripción de la foto](imagenes/010.jpeg)
 
 * 9no paso 
 
 Colocar luces LED, estas luces LED se colocan desde el lado negativo del botón a una nueva línea dentro de la protoboard, ya que así mediante el hardware se logra presionar el botón y encender la luz, no olvidar conectar el canal negativo del led con una resistencia al canal negativo de la protoboard.
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen011
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen012
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen013
+
+![011](imagenes/011.jpeg)
+![012](imagenes/012.jpeg)
+![013](imagenes/013.jpeg)
 
 * 10mo Paso
 
 Colocar potenciómetro, este potenciómetro tiene 3 pines de conexión, el de los extremos pueden ser positio o negativo y el pin del medio es el pin de lectura que va al Arduino en el pin A0
 los pines positivos o negativos dependen de si la lectura va a ser en sentido de las manecillas del reloj o en contra de las manecillas del reloj, en nuestro caso tiene que ser en el sentido a las manecillas del reloj.
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen015
+
+![015](imagenes/015.jpg)
 
 
 ## conclusiones
