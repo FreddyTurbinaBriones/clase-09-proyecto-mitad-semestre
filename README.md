@@ -90,26 +90,26 @@ Instrucciones de armado
 
 Colocar los botones de manera equidistantes en ambas protoboard.
 
-![texto descripción de la foto](imagenes/002.jpg)
+![002](imagenes/002.jpg)
 
 * 2do paso
 
 Unir las protoboard, recordar conectar el canal negativo y positivo entre las protoboard mediante un cable para cada canal.
 
-![texto descripción de la foto](imagenes/003.jpg)
+![003](imagenes/003.jpg)
 
 * 3er paso
 
 Colocar una resistencia entre el canal negativo del botón y el canal negativo del circuito.
 
-![texto descripción de la foto](imagenes/004.jpg)
+![004](imagenes/004.jpg)
 
 * 4to paso 
 
 Conectar el canal positivo del circuito con el canal positivo del botón.
 
-![texto descripción de la foto](imagenes/005.jpg)
-![texto descripción de la foto](imagenes/006.jpg)
+![005](imagenes/005.jpg)
+![006](imagenes/006.jpg)
 
 * 5to paso
 
