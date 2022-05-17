@@ -70,15 +70,14 @@ los materiales son:
 
 ## código para microcontrolador Arduino
 
-el código está hecho para Arduino Uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
+Este código pertenece a nuestro proyecto de mitad de semestre, que consiste en un mini teclado, controlado por Arduino, compuesto de 8 notas (octava sin sostenidos o escala de Do), combinada con luces Led. La idea del proyecto es generar la combinación de notas con las luces, es decir, cuando se presionan los botones, se prende la luz correspondiente al color del botón de la nota presionada.
+El código está basado en uno entregado por le Profesor Aaron Montoya en la clase n°7 y fue modificado según los requerimientos de nuestro proyecto. 
+Ese cógido lo podemos encontrar en el repositorio aud5i022-2022-1 del profesor, buscando en las clases/clase-07/ej_02_sonido_pulsador.
 
-este código está basado en los ejemplos de Arduino blabla y en los ejemplos de esta clase en los enlaces [bla](blabla) y [bla](blabla).
+En primer lugar, en setup() hacemos que los pines del 2 al 9 sean entradas digitales, el pin 10 sea salida digital, y abrimos la comunicación serial, con el fin de que al presionar un botón suene una nota, según la frecuencia correspondiente de cada una de ellas. 
+Los pines 0 y 1 corresponden a Rx y Tx respectivamente, por lo que no pueden ser utilizados como entrada, ya que interrumpen la señal y son leídos de distinta manera. 
 
-primero creamos las variables blabla para almacenar valores para blabla. la variabla bla es análoga en el rango blabla y la variable blabla es digital y tiene valores posibles 0 y 1.
-
-primero en setup() hacemos que los pines X e Y sean entradas digitales, el pin Z sea salida digital, y abrimos la comunicación serial.
-
-luego en loop() leemos las entradas y usamos la salida Z para lograr prender una luz LED.
+Luego en loop() leemos las entradas (pines2-9) y usamos la salida (pin10) para enviar la señal al parlante y que al presionar los botones suenen las notas a su frecuencia correspondiente.
 
 ## Armado de circuito
 
