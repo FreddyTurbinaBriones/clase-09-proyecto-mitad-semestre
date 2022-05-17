@@ -67,7 +67,8 @@ los materiales son:
 * 8 Botones
 * Muchas Resistencias
 * Parlante pequeño
-* ![Foto_Materiales](imagenes/001.jpeg)
+
+![Foto_Materiales](imagenes/001.jpeg)
 
 ## código para microcontrolador Arduino
 
@@ -88,28 +89,34 @@ Instrucciones de armado
 * 1er paso
 
 Colocar los botones de manera equidistantes en ambas protoboard.
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen002
+
+![texto descripción de la foto](imagenes/002.jpg)
 
 * 2do paso
 
 Unir las protoboard, recordar conectar el canal negativo y positivo entre las protoboard mediante un cable para cada canal.
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen003
+
+![texto descripción de la foto](imagenes/003.jpg)
 
 * 3er paso
 
 Colocar una resistencia entre el canal negativo del botón y el canal negativo del circuito.
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen004
+
+![texto descripción de la foto](imagenes/004.jpg)
 
 * 4to paso 
 
 Conectar el canal positivo del circuito con el canal positivo del botón.
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen005 y 006
+
+![texto descripción de la foto](imagenes/005.jpg)
+![texto descripción de la foto](imagenes/006.jpg)
 
 * 5to paso
 
 Conectar el circuito de la protoboard con la fuente de alimentación que es el Arduino.
 esto quiere decir que al canal positivo de la protoboard conectarlos con la salida de 5V del Arduino y que el canal negativo de la protoboard a una entrada de tierra en la placa de Arduino.
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)Imagen007
+
+![texto descripción de la foto](imagenes/007.jpg)
 
 * 6to paso
 
