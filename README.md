@@ -152,18 +152,32 @@ Colocar luces LED, estas luces LED se colocan desde el lado negativo del botón 
 Colocar potenciómetro, este potenciómetro tiene 3 pines de conexión, el de los extremos pueden ser positio o negativo y el pin del medio es el pin de lectura que va al Arduino en el pin A0
 los pines positivos o negativos dependen de si la lectura va a ser en sentido de las manecillas del reloj o en contra de las manecillas del reloj, en nuestro caso tiene que ser en el sentido a las manecillas del reloj.
 
-![015](imagenes/015.jpg)
+![015](imagenes/015.jpeg)
 
 
 ## conclusiones
 
-en este proyecto tuvimos los siguientes aprendizajes: 
+Dentro de este proyecto surgieron distintas dificultades que mencionaremos a continuación
 
-* botón pulsador
-* circuito para 
+* Protoboard sin poder
 
-lo más difícil de este proyecto fue bla.
+Resulta que cuando construimos y unificamos las protoboard se nos olvido conectar los canales de poder y tierra de la protoboard 1 a la 2, nos dimos cuenta de esto porque al momento de darle poder a una luz LED esta no se encendía.
 
-cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
+* Pin 0 y Pin1
 
-este proyecto lo vemos como la base para lograr bla, nos hace pensar en bla, y nos gustaría expandirlo para 10 botones y mil luces y diez arduinos conectados por wifi.
+Estos pines que son RX y TX generaban una interferencia en el funcionamiento del botón y la solución a esto fue correr dos espacios hacia arriba los pines, para usar desde el Pin2 y no desde el Pin0
+
+* Luces LED
+
+La luz LED, al colocarla antes del botón, se mantenía prendida y al momento de presionar el botón esta misma se apagaba, lo que buscamos como equipo era todo lo contrario, que al momento de presionar el botón se perdiera la luz, eso se consiguió solucionar invirtiendo el LED, colocando su lado positivo en la salida negativa del botón y llevando a tierra por otra línea de la protoboard, esto logro que la corriente pasara por el LED cuando se presione el botón.
+
+* Potenciómetro y Delay
+
+Sin el potenciómetro ocurre que el loop de Arduino al leer el botón presionado 1000 veces por segundo, repetía la nota 1000 veces por segundo y reventaba el parlante, al agregarle el potenciómetro que controlara un delay lograba hacer que la nota que se estaba presionando sonara por mas tiempo y evitara este reventón del parlante, y agregaba un tiempo de duración a la nota.
+
+Muchas gracias por leer este post!:D
+
+Saludos Freddy Briones y Tania Fuentes.
+
+![014](imagenes/014.jpeg)
+
