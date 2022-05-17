@@ -1,7 +1,7 @@
 // Este codigo es para crear un tecaldo con 8 notas y un delay que se encarga de la duracion de la nota.
 // Alumnos : Freddy Briones / Tania Fuentes
 // Docente : Aaron Montoya
-//codigo base ocupado fue entregado por Docente
+// codigo base ocupado fue entregado por Docente
 
 
 
