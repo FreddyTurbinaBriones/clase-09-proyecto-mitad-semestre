@@ -14,10 +14,9 @@
 
 * carpeta [codigo_arduino/](codigo_arduino/): carpeta que contiene el codigo de Arduino
   * archivo [odigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino) : Codigo contiene comentarios en su interior
-* carpeta [imagenes/](imagenes/): imágenes del proyecto.
-  * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg) como ejemplo.
-* archivo [README.md](README.md)]: este mismo archivo, aquí escribe tus apuntes durante el proyecto.
-* archivo [README.pdf](README.pdf): este archivo pero convertido a PDF, puedes borrarlo.
+* carpeta [imagenes/](imagenes/): Imágenes del proyecto.
+* archivo [README.md](README.md)
+* archivo [README.pdf](README.pdf)
 
 ## ejemplos útiles
 
@@ -69,18 +68,6 @@ los materiales son:
 * Muchas Resistencias
 * Parlante pequeño
 
-## armado de circuito
-
-estos son los pasos para armar el circuito.
-
-primero hacemos X y se ve así.
-
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
-
-después hacemos Y y se ve así.
-
-![texto descripción de la foto](imagenes/IMG-20220510-WA0047[1].jpg)
-
 ## código para microcontrolador Arduino
 
 el código está hecho para Arduino Uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
@@ -92,6 +79,18 @@ primero creamos las variables blabla para almacenar valores para blabla. la vari
 primero en setup() hacemos que los pines X e Y sean entradas digitales, el pin Z sea salida digital, y abrimos la comunicación serial.
 
 luego en loop() leemos las entradas y usamos la salida Z para lograr prender una luz LED.
+
+## Armado de circuito
+
+estos son los pasos para armar el circuito.
+
+primero hacemos X y se ve así.
+
+![texto descripción de la foto](imagenes/00-ejemplo.jpg)
+
+después hacemos Y y se ve así.
+
+![texto descripción de la foto](imagenes/IMG-20220510-WA0047[1].jpg)
 
 ## conclusiones
 
